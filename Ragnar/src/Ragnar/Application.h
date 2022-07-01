@@ -1,5 +1,6 @@
 #pragma once
 #include "Core.h"
+#include "Log.h"
 
 namespace Ragnar {
 
@@ -10,7 +11,7 @@ namespace Ragnar {
 		virtual ~Application();
 		
 		inline void Run() {
-			while (true);
+			Log(LogCode::ROUTINE, "Application constructed");
 		}
 
 		

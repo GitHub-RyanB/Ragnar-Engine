@@ -1,4 +1,7 @@
 #pragma once
+#include <iostream>
+#include <string>
+#include <iomanip>
 
 #ifdef RG_PLATFORM_WINDOWS
 	#ifdef RG_BUILD_DLL

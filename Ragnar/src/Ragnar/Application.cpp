@@ -2,7 +2,7 @@
 
 namespace Ragnar {
 	Application::Application() {
-
+		
 	}
 
 	Application::~Application() {
